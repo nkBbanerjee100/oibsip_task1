@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+.cont{
+    max-width: 450px;
+    margin: 10vh auto 0 auto;
+    box-shadow: 0px 0px 43px 17px rgba(153, 153, 153, 1);
+}
+#display{
+    text-align: right;
+    padding: 16px 8px;
+    height: 70px;
+    line-height: 70px;
+    font-style: 20px;
+}
+.btns{
+    display: grid;
+    grid-template-columns:1fr 1fr 1fr 1fr;
+    border-bottom: 1px solid greenyellow;
+    border-left: 1px solid greenyellow;
+}
+.btns > div{
+    border-top: 1px solid greenyellow;
+    border-right: 1px solid greenyellow;
+}
+.button{
+    border: 1px solid greenyellow;
+    line-height: 100px;
+    text-align: center;
+    font-size: 25px;
+    cursor: pointer;
+}
+#equalTo{
+    background: linear-gradient(#e66465, #9198e5);
+    color: white;
+}
+.button:hover{
+    background: linear-gradient(217deg, rgba(255,0,0,.8), rgba(255,0,0,0) 70.71%),            linear-gradient(127deg, rgba(0,255,0,.8), rgba(0,255,0,0) 70.71%),            linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+    color: white;
+    transition: 0.5s ease-in-out;
+}
+.material-symbols-outlined{
+    position:absolute; 
+    left:890px;
+    top: 5px;
+    border: 1px solid black;
+    background-color: black;
+    border-radius: 50%;
+    color: white;
+    cursor: pointer;
+}
